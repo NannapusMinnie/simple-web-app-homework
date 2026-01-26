@@ -11,7 +11,7 @@ def f(x):
     return x**3 - 3*x + 2
 
 
-def plot_expression(expr_str, a, b, plot_file):
+def plot_expression(expr_str, a, b, plot_file, color):
     n = 100
 
     x_vals = np.linspace(a, b, n + 1)
@@ -21,7 +21,7 @@ def plot_expression(expr_str, a, b, plot_file):
         y = eval(expr_str, {"x": x}) ## Unsafe!!!
         y_vals.append(y)
 
-    plt.plot(x_vals, y_vals)
+    plt.plot(x_vals, y_vals, color=color)
     plt.savefig(plot_file)
     plt.clf()
 

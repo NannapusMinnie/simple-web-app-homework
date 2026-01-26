@@ -22,6 +22,15 @@
             <input type="number" name="b" step="any" value="{{ b }}">
         </label>
 
+        <label>
+            color =
+            <select name="color">
+                <option value="black" {% if color == "black" %}selected{% endif %}>black</option>
+                <option value="red" {% if color == "red" %}selected{% endif %}>red</option>
+                <option value="blue" {% if color == "blue" %}selected{% endif %}>blue</option>
+            </select>
+        </label>
+
         <br><br>
         <button type="submit">Plot</button>
     </form>
