@@ -6,7 +6,23 @@
 </head>
 <body>
     <form method="get">
-        <input type="text" name="func_expr" value="{{ func_expr }}">
+        <label>
+            f(x) =
+            <input type="text" name="func_expr" value="{{ func_expr }}">
+        </label>
+        <br><br>
+
+        <label>
+            a =
+            <input type="number" name="a" step="any" value="{{ a }}">
+        </label>
+
+        <label>
+            b =
+            <input type="number" name="b" step="any" value="{{ b }}">
+        </label>
+
+        <br><br>
         <button type="submit">Plot</button>
     </form>
 

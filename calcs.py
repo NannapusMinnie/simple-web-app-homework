@@ -18,7 +18,7 @@ def plot_expression(expr_str, a, b, plot_file):
 
     y_vals = []
     for x in x_vals:
-        y = eval(expr_str, {"x": x})## Unsafe!!!
+        y = eval(expr_str, {"x": x}) ## Unsafe!!!
         y_vals.append(y)
 
     plt.plot(x_vals, y_vals)
