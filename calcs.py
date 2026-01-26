@@ -3,7 +3,8 @@ import numpy as np
 import time
 import math
 
-# matplotlib.use('qtagg')
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 def f(x):
@@ -17,7 +18,7 @@ def plot_expression(expr_str, a, b, plot_file):
 
     y_vals = []
     for x in x_vals:
-        y = eval(expr_str)   ## Unsafe!!!
+        y = eval(expr_str, {"x": x})## Unsafe!!!
         y_vals.append(y)
 
     plt.plot(x_vals, y_vals)
