@@ -1,8 +1,4 @@
-import random
-import time
-
 from flask import Flask, render_template, request
-
 from calcs import plot_expression
 
 # Docs and examples for Flask: https://flask.palletsprojects.com/en/stable/
@@ -36,9 +32,3 @@ def main_page():
                            a=a_str, 
                            b=b_str,
                            color=color)  # Add parameters for the template
-
-@app.route("/test")  # http://127.0.0.1:5000/test
-def test_route():
-    x = random.randint(0, 10)
-
-    return render_template('main_page.html', lucky_num=x)
