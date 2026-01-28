@@ -1,0 +1,166 @@
+2026-01-28 12:33:39,991 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+2026-01-28 12:33:39,991 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-28 12:34:10,073 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\OneDrive\Desktop\Module7\simple web app hw\simple-web-app-homework\webapp_embed.py", line 62, in index
+    return render_template(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Minnie\OneDrive\Desktop\Module7\simple web app hw\simple-web-app-homework\templates\embed.html", line 26, in top-level template code
+    {% elif recommendations is None %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateRuntimeError: No test named 'None' found.
+2026-01-28 12:34:10,085 | INFO | 127.0.0.1 - - [28/Jan/2026 12:34:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-28 12:34:17,750 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\OneDrive\Desktop\Module7\simple web app hw\simple-web-app-homework\webapp_embed.py", line 62, in index
+    return render_template(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Minnie\OneDrive\Desktop\Module7\simple web app hw\simple-web-app-homework\templates\embed.html", line 26, in top-level template code
+    {% elif recommendations is None %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateRuntimeError: No test named 'None' found.
+2026-01-28 12:34:17,756 | INFO | 127.0.0.1 - - [28/Jan/2026 12:34:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-28 12:34:56,424 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+2026-01-28 12:34:56,425 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-28 12:35:09,303 | ERROR | Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\OneDrive\Desktop\Module7\simple web app hw\simple-web-app-homework\webapp_embed.py", line 62, in index
+    return render_template(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\Minnie\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Minnie\OneDrive\Desktop\Module7\simple web app hw\simple-web-app-homework\templates\embed.html", line 26, in top-level template code
+    {% elif recommendations is None %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.TemplateRuntimeError: No test named 'None' found.
+2026-01-28 12:35:09,318 | INFO | 127.0.0.1 - - [28/Jan/2026 12:35:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-28 12:35:09,395 | INFO | 127.0.0.1 - - [28/Jan/2026 12:35:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-28 12:38:47,807 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-28 12:38:47,807 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-28 12:38:47,809 | INFO |  * Restarting with stat
+2026-01-28 12:38:50,116 | WARNING |  * Debugger is active!
+2026-01-28 12:38:50,118 | INFO |  * Debugger PIN: 699-826-369
+2026-01-28 12:38:59,838 | INFO | 127.0.0.1 - - [28/Jan/2026 12:38:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-28 12:39:00,123 | INFO | 127.0.0.1 - - [28/Jan/2026 12:39:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-28 12:39:00,183 | INFO | 127.0.0.1 - - [28/Jan/2026 12:39:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-28 12:39:00,245 | INFO | 127.0.0.1 - - [28/Jan/2026 12:39:00] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=af54x0G6dUcKFX6nG5yF HTTP/1.1" 200 -
+2026-01-28 12:40:08,028 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-28 12:40:08,028 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-28 12:40:08,030 | INFO |  * Restarting with stat
+2026-01-28 12:40:11,795 | WARNING |  * Debugger is active!
+2026-01-28 12:40:11,801 | INFO |  * Debugger PIN: 699-826-369
+2026-01-28 12:40:12,038 | INFO | 127.0.0.1 - - [28/Jan/2026 12:40:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-28 12:40:12,329 | INFO | 127.0.0.1 - - [28/Jan/2026 12:40:12] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-28 12:40:12,335 | INFO | 127.0.0.1 - - [28/Jan/2026 12:40:12] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-28 12:40:12,363 | INFO | 127.0.0.1 - - [28/Jan/2026 12:40:12] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=gy9cjoSwqT2PJdMYqO3D HTTP/1.1" 200 -
+2026-01-28 12:40:12,417 | INFO | 127.0.0.1 - - [28/Jan/2026 12:40:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-01-28 12:41:26,397 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-28 12:41:26,397 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-28 12:41:26,400 | INFO |  * Restarting with stat
+2026-01-28 12:41:28,630 | WARNING |  * Debugger is active!
+2026-01-28 12:41:28,633 | INFO |  * Debugger PIN: 699-826-369
+2026-01-28 12:41:31,571 | INFO | 127.0.0.1 - - [28/Jan/2026 12:41:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-28 12:41:32,666 | INFO | 127.0.0.1 - - [28/Jan/2026 12:41:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-01-28 12:41:32,981 | INFO | 127.0.0.1 - - [28/Jan/2026 12:41:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-01-28 12:41:32,987 | INFO | 127.0.0.1 - - [28/Jan/2026 12:41:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-01-28 12:41:33,044 | INFO | 127.0.0.1 - - [28/Jan/2026 12:41:33] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=8hWfw2kn12htl4y3TIwR HTTP/1.1" 200 -
+2026-01-28 12:42:21,320 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-28 12:42:21,320 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-28 12:42:21,322 | INFO |  * Restarting with stat
+2026-01-28 12:42:24,571 | WARNING |  * Debugger is active!
+2026-01-28 12:42:24,576 | INFO |  * Debugger PIN: 699-826-369
+2026-01-28 12:42:24,786 | INFO | 127.0.0.1 - - [28/Jan/2026 12:42:24] "GET / HTTP/1.1" 200 -
+2026-01-28 12:43:18,333 | INFO | New message added | nickname=Liu | message=I want to play badminton after class
+2026-01-28 12:43:19,035 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:43:19,115 | INFO | 127.0.0.1 - - [28/Jan/2026 12:43:19] "POST / HTTP/1.1" 200 -
+2026-01-28 12:43:38,603 | INFO | New message added | nickname=Tigger | message=Looking for someone to play sports, maybe badminton
+2026-01-28 12:43:39,115 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:43:39,120 | INFO | Cosine similarity | new_user=Tigger | matched_user=Liu | score=0.8313
+2026-01-28 12:43:39,121 | INFO | 127.0.0.1 - - [28/Jan/2026 12:43:39] "POST / HTTP/1.1" 200 -
+2026-01-28 12:44:00,407 | INFO | New message added | nickname=Lyric | message=I just want to watch anime all day and relax
+2026-01-28 12:44:01,436 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:44:01,497 | INFO | Cosine similarity | new_user=Lyric | matched_user=Liu | score=0.6958
+2026-01-28 12:44:01,498 | INFO | Cosine similarity | new_user=Lyric | matched_user=Tigger | score=0.6411
+2026-01-28 12:44:01,499 | INFO | 127.0.0.1 - - [28/Jan/2026 12:44:01] "POST / HTTP/1.1" 200 -
+2026-01-28 12:44:30,754 | INFO | New message added | nickname=CC | message=Let's study after class
+2026-01-28 12:44:31,257 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:44:31,262 | INFO | Cosine similarity | new_user=CC | matched_user=Liu | score=0.7920
+2026-01-28 12:44:31,263 | INFO | Cosine similarity | new_user=CC | matched_user=Lyric | score=0.6844
+2026-01-28 12:44:31,263 | INFO | Cosine similarity | new_user=CC | matched_user=Tigger | score=0.6805
+2026-01-28 12:44:31,264 | INFO | 127.0.0.1 - - [28/Jan/2026 12:44:31] "POST / HTTP/1.1" 200 -
+2026-01-28 12:44:53,897 | INFO | New message added | nickname=Hope | message=Let's do homework after class
+2026-01-28 12:44:54,516 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:44:54,523 | INFO | Cosine similarity | new_user=Hope | matched_user=CC | score=0.9227
+2026-01-28 12:44:54,523 | INFO | Cosine similarity | new_user=Hope | matched_user=Liu | score=0.7805
+2026-01-28 12:44:54,523 | INFO | Cosine similarity | new_user=Hope | matched_user=Tigger | score=0.6643
+2026-01-28 12:44:54,524 | INFO | 127.0.0.1 - - [28/Jan/2026 12:44:54] "POST / HTTP/1.1" 200 -

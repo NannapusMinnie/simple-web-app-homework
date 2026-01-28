@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Find a friend for the moment</title>
+</head>
+<body>
+    <form method="POST">
+        <label> Nickname:</label><br>
+        <input type="text" name="nickname" required><br><br>
+        <label> What's on your mind?</label><br>
+        <textarea name="message" row="4" col="50"required></textarea><br><br>
+        <button type="submit">Find friends</button>
+    </form>
+
+    {% if recommendations %}
+        <h3>FRIEND RECOMMENDATIONS</h3>
+        <ul>
+        {% for r in recommendations %}
+            <li>
+                <b>{{ r.nickname }}</b>:
+                "{{ r.message }}"
+                (similarity: {{ r.score }})
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No close match yet</p>
+{% endif %}
+
+</body>
+</html>
