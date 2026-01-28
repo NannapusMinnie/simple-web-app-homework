@@ -164,3 +164,27 @@ jinja2.exceptions.TemplateRuntimeError: No test named 'None' found.
 2026-01-28 12:44:54,523 | INFO | Cosine similarity | new_user=Hope | matched_user=Liu | score=0.7805
 2026-01-28 12:44:54,523 | INFO | Cosine similarity | new_user=Hope | matched_user=Tigger | score=0.6643
 2026-01-28 12:44:54,524 | INFO | 127.0.0.1 - - [28/Jan/2026 12:44:54] "POST / HTTP/1.1" 200 -
+2026-01-28 12:48:03,267 | INFO | New message added | nickname=Mhai | message=I like to sing
+2026-01-28 12:48:04,218 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:48:04,269 | INFO | Cosine similarity | new_user=Mhai | matched_user=CC | score=0.7185
+2026-01-28 12:48:04,270 | INFO | Cosine similarity | new_user=Mhai | matched_user=Liu | score=0.6791
+2026-01-28 12:48:04,270 | INFO | Cosine similarity | new_user=Mhai | matched_user=Hope | score=0.6745
+2026-01-28 12:48:04,270 | INFO | 127.0.0.1 - - [28/Jan/2026 12:48:04] "POST / HTTP/1.1" 200 -
+2026-01-28 12:48:59,278 | INFO | New message added | nickname=Aim | message=i like reading books and shopping
+2026-01-28 12:48:59,927 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:48:59,934 | INFO | Cosine similarity | new_user=Aim | matched_user=Mhai | score=0.7724
+2026-01-28 12:48:59,934 | INFO | Cosine similarity | new_user=Aim | matched_user=CC | score=0.7108
+2026-01-28 12:48:59,934 | INFO | Cosine similarity | new_user=Aim | matched_user=Hope | score=0.6687
+2026-01-28 12:48:59,936 | INFO | 127.0.0.1 - - [28/Jan/2026 12:48:59] "POST / HTTP/1.1" 200 -
+2026-01-28 12:49:22,439 | INFO | New message added | nickname=Tigger | message=I like to play sport
+2026-01-28 12:49:22,962 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:49:22,971 | INFO | Cosine similarity | new_user=Tigger | matched_user=Mhai | score=0.8458
+2026-01-28 12:49:22,971 | INFO | Cosine similarity | new_user=Tigger | matched_user=Aim | score=0.7848
+2026-01-28 12:49:22,971 | INFO | Cosine similarity | new_user=Tigger | matched_user=Tigger | score=0.7601
+2026-01-28 12:49:22,976 | INFO | 127.0.0.1 - - [28/Jan/2026 12:49:22] "POST / HTTP/1.1" 200 -
+2026-01-28 12:50:02,409 | INFO | New message added | nickname=Aom | message=i hate sport
+2026-01-28 12:50:02,898 | INFO | HTTP Request: POST https://api.mistral.ai/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-28 12:50:02,904 | INFO | Cosine similarity | new_user=Aom | matched_user=Tigger | score=0.7736
+2026-01-28 12:50:02,904 | INFO | Cosine similarity | new_user=Aom | matched_user=Tigger | score=0.6720
+2026-01-28 12:50:02,920 | INFO | Cosine similarity | new_user=Aom | matched_user=Aim | score=0.6502
+2026-01-28 12:50:02,923 | INFO | 127.0.0.1 - - [28/Jan/2026 12:50:02] "POST / HTTP/1.1" 200 -
